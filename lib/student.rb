@@ -18,13 +18,13 @@ class Student
 
       DB[:conn].execute(sql)
   end
-  # 
+  #
   # def self.drop_table
   # end
-  # 
+  #
   # def save
   # end
-  # 
+  #
   # def self.create(name:, grade:)
   #   student = Student.new(name, grade)]
   #   student.save
