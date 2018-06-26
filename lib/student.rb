@@ -20,7 +20,7 @@ class Student
   end
 
   def self.drop_table
-    "DROP TABLE students";
+    "DROP TABLE students FROM DB[:conn]";
   end
 
   def save
